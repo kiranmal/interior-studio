@@ -1,0 +1,27 @@
+
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+
+# Build output
+dist/
+server/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Vercel
+.vercel/
